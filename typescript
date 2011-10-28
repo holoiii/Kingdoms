@@ -415,4 +415,294 @@ bash: gemset: command not found
 gemsets for ruby-1.9.2-p290 (found in /Users/rlabog/.rvm/gems/ruby-1.9.2-p290)(B[m
    global
 
-[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m 
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gs
+GPL Ghostscript 8.71 (2010-02-10)
+Copyright (C) 2010 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+ç^C
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Gemfile
+#	modified:   Gemfile.lock
+#	modified:   config/database.yml
+#	modified:   spec/spec_helper.rb
+#	modified:   typescript
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	config/cucumber.yml
+#	features/
+#	lib/tasks/cucumber.rake
+#	script/cucumber
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git add .
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git commit -m "added cucumber support and database_cleaner for rspec"
+[master 897d52e] added cucumber support and database_cleaner for rspec
+ 12 files changed, 638 insertions(+), 1 deletions(-)
+ create mode 100644 config/cucumber.yml
+ create mode 100644 features/step_definitions/web_steps.rb
+ create mode 100644 features/support/env.rb
+ create mode 100644 features/support/paths.rb
+ create mode 100644 features/support/selectors.rb
+ create mode 100644 lib/tasks/cucumber.rake
+ create mode 100755 script/cucumber
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git push
+Counting objects: 33, done.
+Delta compression using up to 2 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   4% (1/22)   Writing objects:   9% (2/22)   Writing objects:  13% (3/22)   Writing objects:  18% (4/22)   Writing objects:  22% (5/22)   Writing objects:  27% (6/22)   Writing objects:  31% (7/22)   Writing objects:  36% (8/22)   Writing objects:  40% (9/22)   Writing objects:  45% (10/22)   Writing objects:  50% (11/22)   Writing objects:  54% (12/22)   Writing objects:  59% (13/22)   Writing objects:  63% (14/22)   Writing objects:  68% (15/22)   Writing objects:  72% (16/22)   Writing objects:  77% (17/22)   Writing objects:  81% (18/22)   Writing objects:  86% (19/22)   Writing objects:  90% (20/22)   Writing objects:  95% (21/22)   Writing objects: 100% (22/22)   Writing objects: 100% (22/22), 8.47 KiB, done.
+Total 22 (delta 7), reused 0 (delta 0)
+To git@github.com:holoiii/Kingdoms.git
+   c38bb07..897d52e  master -> master
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   typescript
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gd
+bash: gd: command not found
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git df[Kiff
+[?1h=diff --git a/typescript b/typescript[m
+index a0541c8..e415fc2 100644[m
+--- a/typescript[m
++++ b/typescript[m
+@@ -415,4 +415,31 @@ bash: gemset: command not found[m
+ gemsets for ruby-1.9.2-p290 (found in /Users/rlabog/.rvm/gems/ruby-1.9.2-p290)[m[m
+    global[m
+ [m
+-[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m [m
+\ No newline at end of file[m
++[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gs[m
++GPL Ghostscript 8.71 (2010-02-10)[m
++Copyright (C) 2010 Artifex Software, Inc.  All rights reserved.[m
++This software comes with NO WARRANTY: see the file PUBLIC for details.[m
++ç^C[m
++[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status[m
++# On branch master[m
++# Changes not staged for commit:[m
++#   (use "git add <file>..." to update what will be committed)[m
++#   (use "git checkout -- <file>..." to discard changes in working directory)[m
++#[m
++#      modified:   Gemfile[m
++#      modified:   Gemfile.lock[m
++#      modified:   config/database.yml[m
++#      modified:   spec/spec_helper.rb[m
++#      modified:   typescript[m
++#[m
++# Untracked files:[m
++#   (use "git add <file>..." to include in what will be committed)[m
++#[m
++#      config/cucumber.yml[m
++#      features/[m
++#      lib/tasks/cucumber.rake[m
++#      script/cucumber[m
++no changes added to commit (use "git add" and/or "git commit -a")[m
++[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git add .[m
++[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git commit -m "added cucumber support and database_cleaner for rspec"[m
++[master 897d52e] added cucumber support and database_cleaner for rspec[m
+[K[?1l>[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   typescript
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rake cucumber
+/Users/rlabog/Sites/kingdoms/db/schema.rb doesn't exist yet. Run "rake db:migrate" to create it then try again. If you do not intend to use a database, you should instead alter /Users/rlabog/Sites/kingdoms/config/application.rb to limit the frameworks that will be loaded
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rake db:migrate
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m cucumber
+Using the default profile...
+MiniTest v1.6.0 is out of date.
+`gem install minitest` and add `gem 'minitest' to you test helper. (RuntimeError)
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/turn-0.8.3/lib/turn/autorun/minitest.rb:14:in `<top (required)>'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `block in require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:225:in `load_dependency'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/turn-0.8.3/lib/turn.rb:13:in `<top (required)>'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `block in require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:225:in `load_dependency'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.1.0/lib/rails/test_help.rb:19:in `<top (required)>'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `block in require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:225:in `load_dependency'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.1.0/lib/active_support/dependencies.rb:240:in `require'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-rails-1.0.2/lib/cucumber/rails.rb:9:in `<top (required)>'
+/Users/rlabog/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:59:in `require'
+/Users/rlabog/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:59:in `rescue in require'
+/Users/rlabog/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:35:in `require'
+/Users/rlabog/Sites/kingdoms/features/support/env.rb:7:in `<top (required)>'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/rb_support/rb_language.rb:143:in `load'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/rb_support/rb_language.rb:143:in `load_code_file'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime/support_code.rb:171:in `load_file'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime/support_code.rb:83:in `block in load_files!'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime/support_code.rb:82:in `each'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime/support_code.rb:82:in `load_files!'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime.rb:137:in `load_step_definitions'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/runtime.rb:39:in `run!'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/cli/main.rb:43:in `execute!'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/lib/cucumber/cli/main.rb:20:in `execute'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/gems/cucumber-1.0.3/bin/cucumber:14:in `<top (required)>'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/bin/cucumber:19:in `load'
+/Users/rlabog/.rvm/gems/ruby-1.9.2-p290/bin/cucumber:19:in `<main>'
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rails generate cucumber:install --help
+Usage:
+  rails generate cucumber:install [LANG] [options]
+
+Options:
+      [--rspec]          # Use RSpec
+      [--testunit]       # Use Test::Unit
+      [--spork]          # Use Spork
+  -D, [--skip-database]  # Skip modification of database.yml
+
+Runtime options:
+  -f, [--force]    # Overwrite files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Supress status output
+  -s, [--skip]     # Skip files that already exist
+
+Description:
+    Sets up Cucumber in your Rails project. After running this generator you will
+    get a new rake task called features.
+    
+    This also generates the necessary files in the features directory.
+    
+    Also see the cucumber:feature generator.
+    
+Examples:
+    `rails generate cucumber:install`
+
+    `rails generate cucumber:install --help`
+
+    You can also provide a language argument for localized web_steps:
+    `rails generate cucumber:install de`
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m bundle
+Fetching source index for http://rubygems.org/
+Using rake (0.9.2.2) 
+Using multi_json (1.0.3) 
+Using activesupport (3.1.0) 
+Using bcrypt-ruby (3.0.1) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.0) 
+Using erubis (2.7.0) 
+Using rack (1.3.5) 
+Using rack-cache (1.0.3) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.0) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.2) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.0) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.30) 
+Using activerecord (3.1.0) 
+Using activeresource (3.1.0) 
+Using ansi (1.3.0) 
+Using bundler (1.0.18) 
+Using nokogiri (1.5.0) 
+Using ffi (1.0.9) 
+Using childprocess (0.2.2) 
+Using spruz (0.2.13) 
+Using json_pure (1.5.4) 
+Using rubyzip (0.9.4) 
+Using selenium-webdriver (2.5.0) 
+Using xpath (0.1.4) 
+Using capybara (1.1.1) 
+Using coffee-script-source (1.1.2) 
+Using execjs (1.2.9) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.1) 
+Using rdoc (3.11) 
+Using thor (0.14.6) 
+Using railties (3.1.0) 
+Using coffee-rails (3.1.1) 
+Using diff-lcs (1.1.3) 
+Using gherkin (2.4.18) 
+Using term-ansicolor (1.0.6) 
+Using cucumber (1.0.3) 
+Using cucumber-rails (1.0.2) 
+Using database_cleaner (0.6.7) 
+Using jquery-rails (1.0.16) 
+Installing minitest (2.7.0) 
+Using rails (3.1.0) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using sass (3.1.10) 
+Using sass-rails (3.1.4) 
+Using sqlite3 (1.3.4) 
+Using turn (0.8.3) 
+Using uglifier (1.0.4) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rake c[Kcucumber
+/Users/rlabog/.rvm/rubies/ruby-1.9.2-p290/bin/ruby -S bundle exec cucumber  --profile default
+Using the default profile...
+0 scenarios
+0 steps
+0m0.000s
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m ls
+Gemfile      README       [34mapp[39;49m[0m          config.ru    [34mdoc[39;49m[0m          [34mlib[39;49m[0m          [34mpublic[39;49m[0m       [34mspec[39;49m[0m         [34mtmp[39;49m[0m          [34mvendor[39;49m[0m
+Gemfile.lock Rakefile     [34mconfig[39;49m[0m       [34mdb[39;49m[0m           [34mfeatures[39;49m[0m     [34mlog[39;49m[0m          [34mscript[39;49m[0m       [34mtest[39;49m[0m         typescript
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gre[K[K[Kman grep
+[?1049h[?1h=GREP(1)                                                                                                                                                   GREP(1)
+
+[1mNAME[0m
+       grep, egrep, fgrep - print lines matching a pattern
+
+[1mSYNOPSIS[0m
+       [1mgrep[0m [[4moptions[24m] [4mPATTERN[24m [[4mFILE[24m...]
+       [1mgrep[0m [[4moptions[24m] [[1m-e[0m [4mPATTERN[24m | [1m-f[0m [4mFILE[24m] [[4mFILE[24m...]
+
+[1mDESCRIPTION[0m
+       [1mGrep[0m  searches the named input [4mFILE[24ms (or standard input if no files are named, or the file name [1m-[0m is given) for lines containing a match to the given [4mPAT-[24m
+       [4mTERN[24m.  By default, [1mgrep[0m prints the matching lines.
+
+       In addition, two variant programs [1megrep[0m and [1mfgrep[0m are available.  [1mEgrep[0m is the same as [1mgrep[0m [1m-E[0m.  [1mFgrep[0m is the same as [1mgrep[0m [1m-F[0m.
+
+[1mOPTIONS[0m
+       [1m-A[0m [4mNUM[24m, [1m--after-context=[0m[4mNUM[24m
+              Print [4mNUM[24m lines of trailing context after matching lines.  Places a line containing [1m--[0m between contiguous groups of matches.
+
+       [1m-a[0m, [1m--text[0m
+              Process a binary file as if it were text; this is equivalent to the [1m--binary-files=text[0m option.
+
+       [1m-B[0m [4mNUM[24m, [1m--before-context=[0m[4mNUM[24m
+              Print [4mNUM[24m lines of leading context before matching lines.  Places a line containing [1m--[0m between contiguous groups of matches.
+
+       [1m-C[0m [4mNUM[24m, [1m--context=[0m[4mNUM[24m
+              Print [4mNUM[24m lines of output context.  Places a line containing [1m--[0m between contiguous groups of matches.
+
+       [1m-b[0m, [1m--byte-offset[0m
+              Print the byte offset within the input file before each line of output.
+
+       [1m--binary-files=[0m[4mTYPE[24m
+              If the first few bytes of a file indicate that the file contains binary data, assume that the file is of type [4mTYPE[24m.  By default,  [4mTYPE[24m  is  [1mbinary[0m,
+              and  [1mgrep[0m  normally  outputs  either a one-line message saying that a binary file matches, or no message if there is no match.  If [4mTYPE[24m is [1mwithout-[0m
+              [1mmatch[0m, [1mgrep[0m assumes that a binary file does not match; this is equivalent to the [1m-I[0m option.  If [4mTYPE[24m is [1mtext[0m, [1mgrep[0m processes a binary file as if it
+              were  text;  this is equivalent to the [1m-a[0m option.  [4mWarning:[24m [1mgrep[0m [1m--binary-files=text[0m might output binary garbage, which can have nasty side effects
+              if the output is a terminal and if the terminal driver interprets some of it as commands.
+
+       [1m--colour[=[0m[4mWHEN[24m][4m,[24m [1m--color[=[0m[4mWHEN[24m]
+:[K[K[?1l>[?1049l[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m grep C[KCpy[K[Kapybara.javascript_driver

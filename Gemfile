@@ -34,6 +34,7 @@ group :test do
   gem 'capybara'
   gem 'cucumber-rails'
   gem 'database_cleaner'
+  gem 'minitest'
 end
 
 group :development do
