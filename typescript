@@ -1,0 +1,232 @@
+Script started on Fri Oct 28 15:22:00 2011
+[?1034h[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m ls
+Gemfile      README       [34mapp[39;49m[0m          config.ru    [34mdoc[39;49m[0m          [34mlog[39;49m[0m          [34mscript[39;49m[0m       [34mtmp[39;49m[0m          [34mvendor[39;49m[0m
+Gemfile.lock Rakefile     [34mconfig[39;49m[0m       [34mdb[39;49m[0m           [34mlib[39;49m[0m          [34mpublic[39;49m[0m       [34mtest[39;49m[0m         typescript
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m cd script
+[36mRegine-Labogs-MacBook-Pro:script [33m(master)[00m$[00m ls
+[31mrails[39;49m[0m
+[36mRegine-Labogs-MacBook-Pro:script [33m(master)[00m$[00m cd rails
+bash: cd: rails: Not a directory
+[36mRegine-Labogs-MacBook-Pro:script [33m(master)[00m$[00m cd ..[K[K[K[K[Kcat rails
+#!/usr/bin/env ruby
+# This command will automatically be run when you run "rails" with Rails 3 gems installed from the root of your application.
+
+APP_PATH = File.expand_path('../../config/application',  __FILE__)
+require File.expand_path('../../config/boot',  __FILE__)
+require 'rails/commands'
+[36mRegine-Labogs-MacBook-Pro:script [33m(master)[00m$[00m cd ..
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rails generate rspec:install
+[1m[32m      create[0m  .rspec
+[1m[32m      create[0m  spec
+[1m[32m      create[0m  spec/spec_helper.rb
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gs
+GPL Ghostscript 8.71 (2010-02-10)
+Copyright (C) 2010 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
+^C
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Gemfile
+#	modified:   Gemfile.lock
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.rspec
+#	spec/
+#	typescript
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Gemfile
+#	modified:   Gemfile.lock
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.rspec
+#	spec/
+#	typescript
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m bundle
+Using rake (0.9.2.2) 
+Using multi_json (1.0.3) 
+Using activesupport (3.1.0) 
+Using bcrypt-ruby (3.0.1) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.0) 
+Using erubis (2.7.0) 
+Using rack (1.3.5) 
+Using rack-cache (1.0.3) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.0) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.2) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.0) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.30) 
+Using activerecord (3.1.0) 
+Using activeresource (3.1.0) 
+Using ansi (1.3.0) 
+Using bundler (1.0.18) 
+Using coffee-script-source (1.1.2) 
+Using execjs (1.2.9) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.1) 
+Using rdoc (3.11) 
+Using thor (0.14.6) 
+Using railties (3.1.0) 
+Using coffee-rails (3.1.1) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (1.0.16) 
+Using rails (3.1.0) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using sass (3.1.10) 
+Using sass-rails (3.1.4) 
+Using sqlite3 (1.3.4) 
+Using turn (0.8.3) 
+Using uglifier (1.0.4) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m bundle install
+Using rake (0.9.2.2) 
+Using multi_json (1.0.3) 
+Using activesupport (3.1.0) 
+Using bcrypt-ruby (3.0.1) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.0) 
+Using erubis (2.7.0) 
+Using rack (1.3.5) 
+Using rack-cache (1.0.3) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.0) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.2) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.0) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.30) 
+Using activerecord (3.1.0) 
+Using activeresource (3.1.0) 
+Using ansi (1.3.0) 
+Using bundler (1.0.18) 
+Using nokogiri (1.5.0) 
+Using ffi (1.0.9) 
+Using childprocess (0.2.2) 
+Using spruz (0.2.13) 
+Using json_pure (1.5.4) 
+Using rubyzip (0.9.4) 
+Using selenium-webdriver (2.5.0) 
+Using xpath (0.1.4) 
+Using capybara (1.1.1) 
+Using coffee-script-source (1.1.2) 
+Using execjs (1.2.9) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Using json (1.6.1) 
+Using rdoc (3.11) 
+Using thor (0.14.6) 
+Using railties (3.1.0) 
+Using coffee-rails (3.1.1) 
+Using diff-lcs (1.1.3) 
+Using jquery-rails (1.0.16) 
+Using rails (3.1.0) 
+Using rspec-core (2.6.4) 
+Using rspec-expectations (2.6.0) 
+Using rspec-mocks (2.6.0) 
+Using rspec (2.6.0) 
+Using rspec-rails (2.6.1) 
+Using sass (3.1.10) 
+Using sass-rails (3.1.4) 
+Using sqlite3 (1.3.4) 
+Using turn (0.8.3) 
+Using uglifier (1.0.4) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m rails [K[K[K[K[K[Kgit status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Gemfile
+#	modified:   Gemfile.lock
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.rspec
+#	spec/
+#	typescript
+no changes added to commit (use "git add" and/or "git commit -a")
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gd typescript
+bash: gd: command not found
+[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gid[Kt diff typescript
+[?1h=[K[?1l>[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m git diff
+[?1h=diff --git a/Gemfile b/Gemfile[m
+index a345696..9589eb1 100644[m
+--- a/Gemfile[m
++++ b/Gemfile[m
+@@ -30,4 +30,10 @@ gem 'jquery-rails'[m
+ group :test do[m
+   # Pretty printed test output[m
+   gem 'turn', :require => false[m
++  gem 'rspec-rails', '~> 2.4'[m
++  gem 'capybara'[m
+ end[m
++[m
++group :development do[m
++  gem 'rspec-rails', '~> 2.4'[m
++end[m
+\ No newline at end of file[m
+diff --git a/Gemfile.lock b/Gemfile.lock[m
+index 3978f00..dbdf992 100644[m
+--- a/Gemfile.lock[m
++++ b/Gemfile.lock[m
+@@ -34,6 +34,15 @@ GEM[m
+     arel (2.2.1)[m
+     bcrypt-ruby (3.0.1)[m
+     builder (3.0.0)[m
++    capybara (1.1.1)[m
++      mime-types (>= 1.16)[m
++      nokogiri (>= 1.3.3)[m
++      rack (>= 1.0.0)[m
++      rack-test (>= 0.5.4)[m
++      selenium-webdriver (~> 2.0)[m
++      xpath (~> 0.1.4)[m
++    childprocess (0.2.2)[m
++      ffi (~> 1.0.6)[m
+     coffee-rails (3.1.1)[m
+       coffee-script (>= 2.2.0)[m
+       railties (~> 3.1.0)[m
+@@ -41,21 +50,26 @@ GEM[m
+       coffee-script-source[m
+       execjs[m
+:[K[K[?1l>[36mRegine-Labogs-MacBook-Pro:kingdoms [33m(master)[00m$[00m gs
+GPL Ghostscript 8.71 (2010-02-10)
+Copyright (C) 2010 Artifex Software, Inc.  All rights reserved.
+This software comes with NO WARRANTY: see the file PUBLIC for details.
