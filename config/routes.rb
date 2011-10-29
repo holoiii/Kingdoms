@@ -6,7 +6,7 @@ Kingdoms::Application.routes.draw do
   match 'login', :controller => 'user_sessions', :action => 'new'
   match 'logout', :controller => 'user_sessions', :action => 'destroy'
   resources :user_sessions
-  resource :users
+  resources :users
   
   root :to => "main#index"
   # The priority is based upon order of creation:
