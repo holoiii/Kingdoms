@@ -16,7 +16,7 @@ describe UsersController do
                          password: "password", 
                          password_confirmation: "password")
       session = UserSession.create(login: user.username, password: user.password)
-      get 'edit'
+      get 'edit', id: user.to_param
       response.should be_success
     end
   end
