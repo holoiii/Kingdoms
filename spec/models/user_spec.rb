@@ -1,5 +1,21 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context "Validation" do
+    it "should create a user with valid attributes" do
+      user = User.create(username: "test_user", 
+                         email: "test@example.com", 
+                         password: "password", 
+                         password_confirmation: "password")
+      user.errors.messages.should be_empty  
+    end
+    
+    it "should not create a user with invalid attributes" do
+      user = User.create(username: "test_user", 
+                         email: "test@example.com", 
+                         password: "password", 
+                         password_confirmation: "badpass")
+      user.errors.messages.should_not be_empty
+    end
+  end
 end
