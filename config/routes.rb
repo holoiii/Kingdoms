@@ -1,4 +1,6 @@
 Kingdoms::Application.routes.draw do
+  resources :kingdoms
+
   get "user_sessions/new"
 
   get "main/index"

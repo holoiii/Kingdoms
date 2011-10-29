@@ -1,0 +1,21 @@
+<h1>Listing kingdoms</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @kingdoms.each do |kingdom| %>
+  <tr>
+    <td><%= link_to 'Show', kingdom %></td>
+    <td><%= link_to 'Edit', edit_kingdom_path(kingdom) %></td>
+    <td><%= link_to 'Destroy', kingdom, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Kingdom', new_kingdom_path %>
