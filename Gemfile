@@ -43,6 +43,7 @@ group :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
   gem 'minitest'
+  gem 'spork', '> 0.9.0.rc'
 end
 
 group :development, :test do
