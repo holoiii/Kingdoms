@@ -2,10 +2,25 @@ require 'spec_helper'
 
 describe Kingdom do
   context "associations" do
-    it "should have many resources" do
-      kingdom = Kingdom.create
-      resource = Resource.create(:name => "Gold", :amount => 5, :kingdom_id => kingdom.to_param)
-      kingdom.resources.should_not be_nil
+    context "resources" do
+      before do
+        @kingdom = Kingdom.create
+      end
+      it "should have a gold resource" do
+        @kingdom.resources.find_by_name("Gold").should_not be_nil
+      end
+      it "should have a stone resource" do
+        @kingdom.resources.find_by_name("Stone").should_not be_nil
+      end
+      it "should have a wood resource" do
+        @kingdom.resources.find_by_name("Wood").should_not be_nil
+      end
+      it "should have a gem resource" do
+        @kingdom.resources.find_by_name("Gem").should_not be_nil
+      end
+      it "should have a wheat resource" do
+        @kingdom.resources.find_by_name("Wheat").should_not be_nil
+      end
     end
   end
 end
