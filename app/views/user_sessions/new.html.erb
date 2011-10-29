@@ -1,0 +1,21 @@
+<h1>Login</h1>
+<%= form_for @user_session do |form| %>
+<% if @user_session.errors.any? %>
+  <% @user_session.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+  <% end %>
+<% end %>
+<ol class="formList">
+  <li>
+    <%= form.label :username, "Username" %>
+    <%= form.text_field :username %>
+  </li>
+  <li>
+    <%= form.label :password, "Password" %>
+    <%= form.password_field :password %>
+  </li>
+  <li>
+    <%= form.submit "Submit" %>
+  </li>
+</ol>
+<% end %>
