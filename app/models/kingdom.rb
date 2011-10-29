@@ -1,4 +1,5 @@
 class Kingdom < ActiveRecord::Base
+  belongs_to :user
   has_many :resources
   after_create :assign_resources
 
