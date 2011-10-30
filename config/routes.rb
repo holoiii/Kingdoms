@@ -1,7 +1,9 @@
 Kingdoms::Application.routes.draw do
-  resources :buildings
+  #resources :buildings
 
-  resources :kingdoms
+  resources :kingdoms do
+    resources :buildings
+  end
 
   get "user_sessions/new"
 

@@ -16,9 +16,16 @@
   </div>
 
   <div class="overview">
-      <div class="overview_title">
-        Overview
-      </div>
+    <div class="overview_title">
+      Overview
+    </div>
+    <div class="buildings_container">
+      <% @kingdom.buildings.each do |building| %>
+          <div class="building_display">
+            <%= "#{building.name}: #{building.amount}" %>
+          </div>
+      <% end %>
+    </div>
   </div>
 
   <div class="news">
