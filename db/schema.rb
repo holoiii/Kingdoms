@@ -11,7 +11,21 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111029232946) do
+ActiveRecord::Schema.define(:version => 20111030010901) do
+
+  create_table "buildings", :force => true do |t|
+    t.integer  "amount"
+    t.integer  "build_time"
+    t.integer  "rate"
+    t.string   "name"
+    t.integer  "gold_cost"
+    t.integer  "stone_cost"
+    t.integer  "wood_cost"
+    t.integer  "wheat_cost"
+    t.integer  "gem_cost"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "kingdoms", :force => true do |t|
     t.datetime "created_at"

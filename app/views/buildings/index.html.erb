@@ -1,0 +1,39 @@
+<h1>Listing buildings</h1>
+
+<table>
+  <tr>
+    <th>Amount</th>
+    <th>Build time</th>
+    <th>Rate</th>
+    <th>Name</th>
+    <th>Gold cost</th>
+    <th>Stone cost</th>
+    <th>Wood cost</th>
+    <th>Wheat cost</th>
+    <th>Gem cost</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @buildings.each do |building| %>
+  <tr>
+    <td><%= building.amount %></td>
+    <td><%= building.build_time %></td>
+    <td><%= building.rate %></td>
+    <td><%= building.name %></td>
+    <td><%= building.gold_cost %></td>
+    <td><%= building.stone_cost %></td>
+    <td><%= building.wood_cost %></td>
+    <td><%= building.wheat_cost %></td>
+    <td><%= building.gem_cost %></td>
+    <td><%= link_to 'Show', building %></td>
+    <td><%= link_to 'Edit', edit_building_path(building) %></td>
+    <td><%= link_to 'Destroy', building, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Building', new_building_path %>

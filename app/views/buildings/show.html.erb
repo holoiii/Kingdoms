@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Amount:</b>
+  <%= @building.amount %>
+</p>
+
+<p>
+  <b>Build time:</b>
+  <%= @building.build_time %>
+</p>
+
+<p>
+  <b>Rate:</b>
+  <%= @building.rate %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @building.name %>
+</p>
+
+<p>
+  <b>Gold cost:</b>
+  <%= @building.gold_cost %>
+</p>
+
+<p>
+  <b>Stone cost:</b>
+  <%= @building.stone_cost %>
+</p>
+
+<p>
+  <b>Wood cost:</b>
+  <%= @building.wood_cost %>
+</p>
+
+<p>
+  <b>Wheat cost:</b>
+  <%= @building.wheat_cost %>
+</p>
+
+<p>
+  <b>Gem cost:</b>
+  <%= @building.gem_cost %>
+</p>
+
+
+<%= link_to 'Edit', edit_building_path(@building) %> |
+<%= link_to 'Back', buildings_path %>
