@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111030010901) do
+ActiveRecord::Schema.define(:version => 20111030011532) do
 
   create_table "buildings", :force => true do |t|
     t.integer  "amount"
@@ -23,6 +23,15 @@ ActiveRecord::Schema.define(:version => 20111030010901) do
     t.integer  "wood_cost"
     t.integer  "wheat_cost"
     t.integer  "gem_cost"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "kingdom_id"
+  end
+
+  create_table "constructions", :force => true do |t|
+    t.datetime "finish_time"
+    t.integer  "amount"
+    t.integer  "building_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
