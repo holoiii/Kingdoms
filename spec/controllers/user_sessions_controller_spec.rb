@@ -19,7 +19,7 @@ describe UserSessionsController do
                          password: "password",
                          password_confirmation: "password")
       post :create, :user_session => {username: user.username, password: user.password}
-      response.should redirect_to kingdoms_path
+      response.should redirect_to kingdom_path(user.kingdom)
     end
 
     it "should render the 'new' template on unsuccessful login" do
