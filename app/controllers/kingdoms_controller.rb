@@ -1,6 +1,4 @@
 class KingdomsController < ApplicationController
-  # GET /kingdoms
-  # GET /kingdoms.json
   def index
     @kingdoms = Kingdom.all
 
@@ -10,8 +8,6 @@ class KingdomsController < ApplicationController
     end
   end
 
-  # GET /kingdoms/1
-  # GET /kingdoms/1.json
   def show
     @kingdom = Kingdom.find(params[:id])
 
@@ -21,8 +17,6 @@ class KingdomsController < ApplicationController
     end
   end
 
-  # GET /kingdoms/new
-  # GET /kingdoms/new.json
   def new
     @kingdom = Kingdom.new
 
@@ -32,13 +26,10 @@ class KingdomsController < ApplicationController
     end
   end
 
-  # GET /kingdoms/1/edit
   def edit
     @kingdom = Kingdom.find(params[:id])
   end
 
-  # POST /kingdoms
-  # POST /kingdoms.json
   def create
     @kingdom = Kingdom.new(params[:kingdom])
 
@@ -53,8 +44,6 @@ class KingdomsController < ApplicationController
     end
   end
 
-  # PUT /kingdoms/1
-  # PUT /kingdoms/1.json
   def update
     @kingdom = Kingdom.find(params[:id])
 
@@ -69,8 +58,6 @@ class KingdomsController < ApplicationController
     end
   end
 
-  # DELETE /kingdoms/1
-  # DELETE /kingdoms/1.json
   def destroy
     @kingdom = Kingdom.find(params[:id])
     @kingdom.destroy

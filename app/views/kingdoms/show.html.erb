@@ -1,5 +1,29 @@
-<p id="notice"><%= notice %></p>
+<div class="header">
 
+</div>
 
-<%= link_to 'Edit', edit_kingdom_path(@kingdom) %> |
-<%= link_to 'Back', kingdoms_path %>
+<div class="left_sidebar">
+
+</div>
+
+<div class="middle_sidebar">
+  <div class="status_bar">
+    <% @kingdom.resources.each do |resource| %>
+        <div class="resource_display">
+          <%= "#{resource.name}: #{resource.amount}" %>
+        </div>
+    <% end %>
+  </div>
+
+  <div class="overview">
+
+  </div>
+
+  <div class="news">
+
+  </div>
+</div>
+
+<div class="right_sidebar">
+
+</div>
